@@ -45,3 +45,20 @@ Some improvements could be made
 4. Adding a progress bar to show the progress of the download
 5. Adding a way to specify the output directory for the fetched pages
 6. Add a more friendly command for running the project
+
+## Unit tests
+
+Added unit tests that run at build time (During Docker build)
+Else they can be run with this command:
+
+```
+docker run --rm --entrypoint python fetch-app -m unittest test_fetch.py
+```
+
+## Time taken
+
+Rougly 65 minutes
+
+```
+
+```
